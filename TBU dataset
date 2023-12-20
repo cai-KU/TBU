@@ -1,11 +1,2 @@
 # TBU
-A multi-task classroom teachers' teaching behavior video dataset
-
-In this paper, we introduce a new large-scale, multi-educational stage, multi-task teachers' teaching behavior dataset named Mtt-B for understanding of classroom teachers' teaching behavior.
-
-
-
-
-Example videos of six behavior categories in MttB_R.
-![image](https://github.com/cai-KU/Mtt-B/blob/main/overview.png?raw=true)
-https://github.com/cai-KU/MttB/blob/main/MttB_R.png?raw=true
+The study of classroom teachers' teaching behavior aims to track the development process of teacher behavior, which provides evidence for teachers' reflection on classroom teaching. Although the recent attempts propose several promising directions for the analysis of teaching behavior, the existing public datasets are still insufficient to meet the need for these potential solutions due to lacking of varied classroom environment, fine-grained teaching scene behavior data. In this paper, we construct a large-scale, diverse, scenario-specific, and multi-task teacher behavior dataset named TBU, which contains 37,026 high-quality category clips, 9,422 precise temporal boundaries clips, and 6,098 fine-grained description clips. On top of it, we systematically investigate representative methods on multiple tasks on TBU, which can serve as a benchmark for the research towards a more comprehensive understanding of teaching video data. 
