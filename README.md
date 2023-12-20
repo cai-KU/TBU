@@ -1,5 +1,5 @@
 # TBU
-A multi-task classroom teachers' teaching behavior video dataset
+TBU: A Large-Scale Multi-Task Video Dataset for Teacher Behavior Understanding
 
 In this paper, we introduce a new large-scale, multi-educational stage, multi-task teachers' teaching behavior dataset named Mtt-B for understanding of classroom teachers' teaching behavior.
 
