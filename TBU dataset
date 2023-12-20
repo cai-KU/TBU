@@ -1,2 +1,75 @@
-# TBU
-The study of classroom teachers' teaching behavior aims to track the development process of teacher behavior, which provides evidence for teachers' reflection on classroom teaching. Although the recent attempts propose several promising directions for the analysis of teaching behavior, the existing public datasets are still insufficient to meet the need for these potential solutions due to lacking of varied classroom environment, fine-grained teaching scene behavior data. In this paper, we construct a large-scale, diverse, scenario-specific, and multi-task teacher behavior dataset named TBU, which contains 37,026 high-quality category clips, 9,422 precise temporal boundaries clips, and 6,098 fine-grained description clips. On top of it, we systematically investigate representative methods on multiple tasks on TBU, which can serve as a benchmark for the research towards a more comprehensive understanding of teaching video data. 
+# Behavior Recognition (TBU_R)
+
+
+#Temporal Action Localization (TBU_L), labeling results of some examples.
+{
+		"num": "21859",
+		"videoname": "video_primary_48_21859.mp4",
+		"behavior1": "interact with students outside the podium",
+		"behavior1start": "00:00:01.500",
+		"behavior1end": "00:00:08.500",
+		"behavior2": "lecture underneath the podium",
+		"behavior2start": "00:00:08.500",
+		"behavior2end": "00:00:20.500"
+	  },
+	  {
+		"num": "23954",
+		"videoname": "video_primary_21_23954.mp4",
+		"behavior1": "interact with students outside the podium",
+		"behavior1start": "00:00:02.000",
+		"behavior1end": "00:00:05.000",
+		"behavior2": "lecture underneath the podium",
+		"behavior2start": "00:00:05.000",
+		"behavior2end": "00:00:07.000"
+	  },
+	  {
+		"num": "26231",
+		"videoname": "video_college_14_26231.mp4",
+		"behavior1": "lecture on the podium",
+		"behavior1start": "00:00:03.000",
+		"behavior1end": "00:00:13.165",
+		"behavior2": "board writing",
+		"behavior2start": "00:00:13.165",
+		"behavior2end": "00:00:24.578"
+	  },
+	  {
+		"num": "26243",
+		"videoname": "video_college_14_26243.mp4",
+		"behavior1": "board writing",
+		"behavior1start": "00:00:03.000",
+		"behavior1end": "00:00:10.309",
+		"behavior2": "lecture on the podium",
+		"behavior2start": "00:00:10.309",
+		"behavior2end": "00:00:14.549"
+	  },
+#Behavior Description (TBU_D), labeling results of some examples.
+{
+    "num": 13529,
+    "viedo_name": "video_primary_11_13529.mp4",
+    "description": [
+      "The teacher stands in front of the blackboard in the classroom, pointing at the blackboard while delivering a lecture to the students.",
+      "The teacher stands in front of the blackboard in the classroom, pointing towards the blackboard as they give a lecture.",
+      "The teacher pointed to the blackboard to teach",
+      "The teacher points to the blackboard while teaching."
+    ]
+  },
+  {
+    "num": 13531,
+    "viedo_name": "video_primary_11_13531.mp4",
+    "description": [
+      "The teacher walks around while delivering the lecture.",
+      "The teacher moves from the front of the classroom to the back while delivering the lecture.",
+      "The teacher walks from the front of the classroom to the back, facing the students while delivering the lecture.",
+      "The teacher positions themselves at the front of the classroom, gesturing towards the blackboard as they deliver a lecture to the students."
+    ]
+  },
+  {
+    "num": 13534,
+    "viedo_name": "video_primary_11_13534.mp4",
+    "description": [
+      "The teacher is lecturing to the students at the podium in class",
+      "The teacher stands beside the podium at the front of the classroom, facing the students while delivering the lecture.",
+      "The teacher delivers the lecture from the back of the classroom.",
+      "The teacher is lecturing in the classroom."
+    ]
+  },
