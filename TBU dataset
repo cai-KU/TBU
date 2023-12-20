@@ -1,6 +1,6 @@
 # Behavior Recognition (TBU_R)
 
-![image](https://github.com/cai-KU/TBU/blob/main/TBU_R.png?raw=true).
+we identify 13 types of teacher behaviors, including board writing, erasing the blackboard, operating multimedia, multimedia teaching, teacher bowing, displaying teaching aids, lecture on the podium, classroom inspection around on the podium, interacting with students on the podium, lecture underneath the podium, classroom inspection underneath the podium, interact with students outside the podium, pointing to the blackboard.
 
 #Temporal Action Localization (TBU_L), labeling results of some examples.
 {
